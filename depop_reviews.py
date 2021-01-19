@@ -73,6 +73,7 @@ values = np.array(values)[indSort]
 keyword_df=pd.DataFrame({'keyword':labels,'frequency':values}) 
 keyword_df.to_csv('extra_files/keywords.csv', index=False)
 
+
 #### FIND RELEVANT UX-RELATED REVIEWS ####
 
 # open list of relevant keywords
